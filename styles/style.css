@@ -1,3 +1,133 @@
-body{
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Poppins", serif; */
+/* font-family: "Inter", serif; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+
+/* shared style section start here */
+
+
+.display-flex{
+    display: flex;
+}
+
+.secondary-color{
+    color:rgba(58, 58, 58, 1) ;
+}
+.primary-btn{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    padding: 10px  24px;
+    border: none;
+
+
+}
+
+
+/* shared style section end here */
+
+
+/* header section style start here */
+
+
+
+/* navbar section start here */
+
+.header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* margin-top: 80px ; */
+    /* background-color: #E02C6D; */
+}
+
+
+.header{
+    justify-content: space-between;
+   
+   
+    
+}
+
+.navbar li{
+    list-style: none;
+   
+   
+   
+}
+ul{
+    margin-right: 120px;
+    margin-top:90px ;
+}
+ul li a{
+    text-decoration: none;
+    padding: 34px;
+    
+
+}
+.header-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    margin-top: 80px;
+    margin-left: 120px;
+   
+}
+
+/* navbar section style end here */
+
+
+/* banner section style start here */
+  .banner{
+    justify-content: space-between;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat; 
+    background-position: right top;
+    background-size: calc(100% - 800px);
+    background-size: 500px;
+    margin-top: 40px;
+   
+    
+  }
+.banner-content{
+    max-width: 582px;
+    margin-top: 147px;
+    margin-left: 120px;
+}
+.banner-title{
+    font-size: 3.50rem;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    margin-bottom: 16px;
+}
+.banner-description{
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    margin-bottom: 16px;
+
+
+    
+}
+.banner-img{
+    max-width: 440px;
+    margin: 70px 55px 100px 133px ;
+
+}
+
+
+/* banner section style end here */
+
+
+
+
+/* haeder section style end here */
