@@ -129,5 +129,164 @@ ul li a{
 
 
 
+/* company section style start here */
+
+.conpanies{
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    padding: 20px;
+    
+}
+
+
+
+
+/* Company section style end here */
+
+
+
 
 /* haeder section style end here */
+
+
+
+/* start for small device reponsive */
+
+
+/* for headeer section  */
+
+  @media screen and (max-width:576px) {
+    .header   {
+        flex-direction: column;
+       }
+       .banner{
+        flex-direction: column-reverse;
+            background-size: 350px;
+          
+       }
+       .banner-content{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+        
+       
+    }
+    
+    
+    
+     .banner-content{
+         padding: 0 20px; 
+        
+    } 
+    .banner-img img{
+        width: 290px;
+        margin-top: 20px;
+        
+    
+    }
+    .header-title{
+        
+       
+        margin: 40px auto;
+       
+    }
+    .navbar, ul{
+        margin: 30px auto;
+    }
+    ul li a{
+       
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 800;
+        
+    }
+
+    /* headere section end */
+
+
+    /* company section */
+
+    .conpanies{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+
+    /* company section  end */
+   
+  }
+
+
+/* end for small device reponsive */
+
+
+
+
+/* for medium device start here */
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+
+    /* header section responsive start */
+
+
+    /* header section  */
+
+       .banner{
+        flex-direction: column;
+       }
+       .banner{
+        background-image: none;
+         
+    }
+    .header-title{
+        
+       
+        margin-top: 80px ;
+       
+    }
+    
+    ul li a{
+       
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 800;
+        
+    } 
+    
+    .navbar, ul{
+        margin-right: 30px ;
+    } 
+
+
+    /* header section end */
+
+
+    /* company section */
+
+    .conpanies{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 40px 30px;
+        margin-top: 40px;
+    }
+
+
+
+    /* company section end */
+    
+}
+
+/* header section responsive end */
+
+
+/* for medium device end here */
