@@ -252,6 +252,37 @@ ul li a{
 /* feature section end here */
 
 
+/* footer section style start here */
+
+.footer{
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.footer-container{
+    color: white;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-description{
+    margin: 10px 0;
+}
+.icon i{
+    padding: 4px;
+}
+
+
+
+
+/* footer section style end here */
+
+
 
 /* main section end here */
 
@@ -410,14 +441,55 @@ ul li a{
         gap: 40px 30px;
         margin-top: 40px;
     }
+     
+    /* popular section responsive start here */
 
+
+    .popular-img-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px 10px;
+        justify-self: center;
+    }
+
+
+
+
+
+
+    /* popular section responsive end here */
 
 
     /* company section end */
+
+
+    /* feature section style start here */
+    
+     .feature-content{
+        height: 224px;
+       
+     }
+    
+.feature{
+    width: 97%;
+    margin: 0 auto;
+    gap: 36px ;
+    /* margin-top: 100px; */
+}
+.feature-title{
+    font-size: 1.5rem;
+    
+
+}
+
+
+    /* feature section style end here */
+
+
+
     
 }
 
-/* header section responsive end */
+
 
 
 /* for medium device end here */
