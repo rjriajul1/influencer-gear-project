@@ -390,6 +390,11 @@ ul li a{
 /* end for small device reponsive */
 
 
+/* .footer{
+    width: 100%;
+} */
+
+
 
 
 /* for medium device start here */
@@ -451,7 +456,9 @@ ul li a{
         justify-self: center;
     }
 
-
+      .feature-img img{
+        width: 100%;
+      }
 
 
 
@@ -464,16 +471,12 @@ ul li a{
 
     /* feature section style start here */
     
-     .feature-content{
-        height: 224px;
-       
-     }
     
 .feature{
-    width: 97%;
-    margin: 0 auto;
-    gap: 36px ;
-    /* margin-top: 100px; */
+    
+    gap: 36px 0 ;
+    flex-direction: column-reverse;
+    padding: 10px;
 }
 .feature-title{
     font-size: 1.5rem;
